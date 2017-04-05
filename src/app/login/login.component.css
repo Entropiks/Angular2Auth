@@ -1,11 +1,28 @@
+button {
+  height: 50px;
+  width: 275px;
+}
+
+.form-container {
+  background-color: grey;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fb {
+  background: #fff  url('assets/images/facebook.svg') no-repeat 25px;
+  background-size: 25px;
+}
+
 #google {
-    border: 1px solid #95989A;
     background: #fff  url('assets/images/google.svg') no-repeat 25px;
     background-size: 25px;
 }
 
 #email {
-    background: #ECECEC  url('assets/images/email.svg') no-repeat 25px;
+    background: #fff  url('assets/images/email.svg') no-repeat 25px;
     background-size: 25px;
 }
 
